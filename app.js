@@ -11,6 +11,7 @@ const favicon = require('serve-favicon');
 const logger = require('morgan');
 const lusca = require('lusca');
 const path = require('path');
+const flash = require('express-flash');
 const session = require('express-session');
 /**
  * Load environment variables from .env file, where API keys and passwords are configured.
@@ -53,6 +54,7 @@ app.use(session({
   saveUninitialized: true,
   secret: process.env.SESSION_SECRET,
 }));
+app.use(flash());
 app.use((req, res, next) => {
   lusca.csrf()(req, res, next);
 });

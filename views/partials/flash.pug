@@ -1,0 +1,12 @@
+if messages.errors
+  .alert.alert-danger.text-center
+    button.close(type='button', data-dismiss='alert')
+      i.fa.fa-times-circle-o
+    for error in messages.errors
+      h4.pt-2= error.msg
+if messages.info
+  .alert.alert-info.text-center
+    button.close(type='button', data-dismiss='alert')
+      i.fa.fa-times-circle-o
+    for info in messages.info
+      h4.pt-2= info.msg

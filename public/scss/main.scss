@@ -3,6 +3,7 @@
 @import 'index';
 @import 'learnmore';
 @import 'font';
+@import 'color';
 
 /*************** Override font family *************************************************/
 p, a{
@@ -139,4 +140,22 @@ h5{
 
 .container .row{
   width: 100%;
+}
+
+/*************** Flash ***************************************************/
+
+.alert{
+  margin: 0px;
+}
+
+.alert-danger{
+  background-color: $wel-pink;
+  border: none;
+  color: $wel-black;
+}
+
+.alert-info{
+  background-color: $wel-yellow;
+  border: none;
+  color: $wel-black;
 }

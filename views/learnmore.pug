@@ -70,8 +70,9 @@ block content
                
             .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap.pt-3
                 .pl-5.pr-5.pb-4.text-center
-                    form.pt-5(method="post" action="http://yahoo.us12.list-manage.com/subscribe/post?u=ef551ada35ac08ad04a91b8d1&amp;id=2e7b65c068")
-                        input.text(type="text" name="MERGE0" placeholder="Drop us your email")
+                    form.pt-5(method="post" action="/addMember")
+                        input(type='hidden', name='_csrf', value=_csrf)
+                        input.text(type="text" value="" name="email" placeholder="Drop us your email")
                         input.button(type="submit" value="Get access")
                         p We don't spam, we don't sell data
                         h5.pt-4 Thanks and se you soon, in Paris or anywhere else ! 

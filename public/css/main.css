@@ -16,7 +16,8 @@
   border: none;
   border-radius: 0px 10px 10px 0px;
   background-color: #ffd14e;
-  font-weight: bold; }
+  font-weight: bold;
+  cursor: pointer; }
 
 #header-carousel form p {
   font-size: 0.8rem; }
@@ -90,7 +91,8 @@ header #header-title {
   border: none;
   border-radius: 0px 10px 10px 0px;
   background-color: #ffd14e;
-  font-weight: bold; }
+  font-weight: bold;
+  cursor: pointer; }
 
 #content form p {
   font-size: 0.8rem; }
@@ -140,6 +142,7 @@ header #header-title {
   font-family: "GothamLight Regular";
   src: url("/font/GothamLight Regular.otf"); }
 
+/************** This file define colors use for welcom ***************/
 /*************** Override font family *************************************************/
 p, a {
   font-family: 'Aaux ProMedium', serif;
@@ -242,3 +245,17 @@ h5 {
 
 .container .row {
   width: 100%; }
+
+/*************** Flash ***************************************************/
+.alert {
+  margin: 0px; }
+
+.alert-danger {
+  background-color: #dc5770;
+  border: none;
+  color: #000000; }
+
+.alert-info {
+  background-color: #ffd14e;
+  border: none;
+  color: #000000; }
