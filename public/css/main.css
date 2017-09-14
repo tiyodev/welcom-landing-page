@@ -1,0 +1,212 @@
+/************** This file import all scss files and override bootstrap css ************/
+/************** This file define colors use for welcom ***************/
+#header-carousel .logo {
+  height: 100px; }
+
+#header-carousel form .text {
+  height: 40px;
+  width: 250px;
+  border-radius: 10px 0px 0px 10px;
+  text-align: center;
+  border: none; }
+
+#header-carousel form .button {
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #ffd14e;
+  font-weight: bold; }
+
+#header-carousel form p {
+  font-size: 0.8rem; }
+
+#header-carousel .dark-opacity-overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right top, from(#dc5770), to(#0a1235));
+  background: linear-gradient(to right, #dc5770, #0a1235);
+  mix-blend-mode: multiply; }
+
+#header-carousel .header-carousel-img {
+  width: 100vw;
+  height: 800px;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+#header-carousel .carousel-caption {
+  top: 10%; }
+  #header-carousel .carousel-caption h1, #header-carousel .carousel-caption h2 {
+    font-family: 'Aaux ProBold'; }
+
+#footer {
+  background-color: #0a1235;
+  color: #ffffff; }
+  #footer img {
+    height: 50px; }
+  #footer .learn-more {
+    font-size: 1.2rem;
+    color: #ffffff;
+    -webkit-text-decoration: underline #ffffff;
+            text-decoration: underline #ffffff; }
+  #footer .copyright p {
+    font-size: 0.8rem; }
+
+/************** This file define colors use for welcom ***************/
+header #header-logo {
+  background-color: #ffffff; }
+  header #header-logo .logo {
+    height: 100px; }
+
+header #header-title {
+  background-color: #0a1235;
+  color: #ffd14e; }
+
+#content .icon {
+  height: 100px; }
+
+#content .d-flex:nth-child(even) {
+  background-color: #ebebeb; }
+
+@media (max-width: 992px) {
+  #content .text-down-lg-center {
+    text-align: center; } }
+
+#content p {
+  max-width: 750px; }
+
+#content form .text {
+  height: 40px;
+  width: 250px;
+  border-radius: 10px 0px 0px 10px;
+  text-align: center;
+  border: solid 2px #ffd14e; }
+
+#content form .button {
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #ffd14e;
+  font-weight: bold; }
+
+#content form p {
+  font-size: 0.8rem; }
+
+#footer {
+  background-color: #0a1235;
+  color: #ffffff; }
+  #footer img {
+    height: 50px; }
+  #footer .learn-more {
+    font-size: 1.2rem;
+    color: #ffffff;
+    -webkit-text-decoration: underline #ffffff;
+            text-decoration: underline #ffffff; }
+  #footer .copyright p {
+    font-size: 0.8rem; }
+
+/*************** Override font family *************************************************/
+p, a {
+  font-family: 'Aaux ProMedium', serif;
+  font-size: 1rem; }
+
+h1 {
+  font-family: 'Aaux ProLight', serif;
+  font-size: 3rem; }
+
+h2 {
+  font-family: 'Aaux ProBold', serif;
+  font-size: 2rem; }
+
+h3 {
+  font-family: 'Aaux ProBold', serif;
+  font-size: 1.5rem; }
+
+h4 {
+  font-family: 'Aaux ProRegular', serif;
+  font-size: 1.3rem; }
+
+h5 {
+  font-family: 'Aaux ProRegular', serif;
+  font-size: 1rem; }
+
+.aaux-pro-black {
+  font-family: 'Aaux ProBlack', serif; }
+
+.aaux-pro-regular {
+  font-family: 'Aaux ProRegular', serif; }
+
+.myriad-pro {
+  font-family: 'Myriad Pro', serif; }
+
+/*************** Override padding *****************************************************/
+.p-5 {
+  padding: 2rem 2rem !important; }
+
+.pt-5 {
+  padding-top: 2rem !important; }
+
+.pr-5 {
+  padding-right: 2rem !important; }
+
+.pb-5 {
+  padding-bottom: 2rem !important; }
+
+.pl-5 {
+  padding-left: 2rem !important; }
+
+.p-6 {
+  padding: 3rem 3rem !important; }
+
+.pt-6 {
+  padding-top: 3rem !important; }
+
+.pr-6 {
+  padding-right: 3rem !important; }
+
+.pb-6 {
+  padding-bottom: 3rem !important; }
+
+.pl-6 {
+  padding-left: 3rem !important; }
+
+/*************** Override margin ******************************************************/
+.m-5 {
+  margin: 2rem 2rem !important; }
+
+.mt-5 {
+  margin-top: 2rem !important; }
+
+.mr-5 {
+  margin-right: 2rem !important; }
+
+.mb-5 {
+  margin-bottom: 2rem !important; }
+
+.ml-5 {
+  margin-left: 2rem !important; }
+
+.m-6 {
+  margin: 3rem 3rem !important; }
+
+.mt-6 {
+  margin-top: 3rem !important; }
+
+.mr-6 {
+  margin-right: 3rem !important; }
+
+.mb-6 {
+  margin-bottom: 3rem !important; }
+
+.ml-6 {
+  margin-left: 3rem !important; }
+
+/*************** Override container ***************************************************/
+.container {
+  width: 100%; }
+
+.container .row {
+  width: 100%; }

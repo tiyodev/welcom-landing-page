@@ -1,0 +1,83 @@
+@import 'color';
+
+header{
+   
+    #header-logo{
+        background-color: $wel-white;
+
+        .logo{
+            height: 100px;
+        }
+    }
+
+    #header-title{
+        background-color: $wel-blue;
+        color: $wel-yellow;
+    }
+}
+
+#content{
+    .icon{
+        height: 100px;
+    }
+
+    .d-flex:nth-child(even) {
+        background-color: $wel-grey-middle-light;
+    } 
+
+    @media (max-width: 992px) {
+        .text-down-lg-center{
+            text-align: center;
+        }
+    }
+
+    p{
+        max-width: 750px;
+    }
+
+    form{ 
+        .text{
+            height: 40px;
+            width: 250px;
+            border-radius: 10px 0px 0px 10px;
+            text-align: center;
+            border: solid 2px $wel-yellow;
+        }
+
+        .button{
+            height: 40px;
+            width: 130px;
+            border: none;
+            border-radius: 0px 10px 10px 0px;
+            background-color: $wel-yellow;
+
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}
+
+#footer{
+    background-color: $wel-blue;
+    color: $wel-white;
+
+    img{
+        height: 50px;
+    }
+
+    .learn-more{
+        font-size: 1.2rem;
+        color: $wel-white;
+        text-decoration: underline $wel-white;
+        
+    }
+
+    .copyright{
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}

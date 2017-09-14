@@ -1,0 +1,141 @@
+/************** This file import all scss files and override bootstrap css ************/
+
+@import 'index';
+@import 'learnmore';
+
+/*************** Override font family *************************************************/
+p, a{
+  font-family: 'Aaux ProMedium', serif;
+  font-size: 1rem;
+}
+
+h1{
+  font-family: 'Aaux ProLight', serif;
+  font-size: 3rem;
+}
+
+h2{
+  font-family: 'Aaux ProBold', serif;
+  font-size: 2rem;
+}
+
+h3{
+  font-family: 'Aaux ProBold', serif;
+  font-size: 1.5rem;
+}
+
+h4{
+  font-family: 'Aaux ProRegular', serif;
+  font-size: 1.3rem;
+}
+
+h5{
+  font-family: 'Aaux ProRegular', serif;
+  font-size: 1rem;
+}
+
+.aaux-pro-black{
+  font-family: 'Aaux ProBlack', serif;
+}
+
+.aaux-pro-regular{
+  font-family: 'Aaux ProRegular', serif;
+}
+
+.myriad-pro{
+  font-family: 'Myriad Pro', serif;
+}
+
+
+/*************** Override padding *****************************************************/
+.p-5{
+  padding: 2rem 2rem !important;
+}
+
+.pt-5{
+  padding-top: 2rem !important;
+}
+
+.pr-5{
+  padding-right: 2rem !important;
+}
+
+.pb-5{
+  padding-bottom: 2rem !important;
+}
+
+.pl-5{
+  padding-left: 2rem !important;
+}
+
+.p-6{
+  padding: 3rem 3rem !important;
+}
+
+.pt-6{
+  padding-top: 3rem !important;
+}
+
+.pr-6{
+  padding-right: 3rem !important;
+}
+
+.pb-6{
+  padding-bottom: 3rem !important;
+}
+
+.pl-6{
+  padding-left: 3rem !important;
+}
+
+/*************** Override margin ******************************************************/
+
+.m-5{
+  margin: 2rem 2rem !important;
+}
+
+.mt-5{
+  margin-top: 2rem !important;
+}
+
+.mr-5{
+  margin-right: 2rem !important;
+}
+
+.mb-5{
+  margin-bottom: 2rem !important;
+}
+
+.ml-5{
+  margin-left: 2rem !important;
+}
+
+.m-6{
+  margin: 3rem 3rem !important;
+}
+
+.mt-6{
+  margin-top: 3rem !important;
+}
+
+.mr-6{
+  margin-right: 3rem !important;
+}
+
+.mb-6{
+  margin-bottom: 3rem !important;
+}
+
+.ml-6{
+  margin-left: 3rem !important;
+}
+
+/*************** Override container ***************************************************/
+
+.container{
+  width: 100%;
+}
+
+.container .row{
+  width: 100%;
+}

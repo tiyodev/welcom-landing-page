@@ -1,0 +1,57 @@
+extends layout
+
+block content
+  header#header-ld
+    //- Header image carousel
+    section#header-carousel.carousel.slide(data-ride="carousel")
+      .carousel-inner(role="listbox")
+        .carousel-caption
+          img.logo(src="/images/logo-header.svg")
+          h1.pt-5 Feel like a Parisian
+
+          h4.pt-5 | We are a small local community of travellers. <br/>
+                 | We are dedicated to make you discover our city like locals, <br/>
+                 | like we like to to when we travel. <br/>
+
+          h4.pt-5 Meet parisians, share a moment, experience the real Paris.
+        
+          form.pt-5(method="post" action="http://yahoo.us12.list-manage.com/subscribe/post?u=ef551ada35ac08ad04a91b8d1&amp;id=2e7b65c068")
+            input.text(type="text" name="MERGE0" placeholder="Drop us your email")
+            input.button(type="submit" value="Get access")
+            p We don't spam, we don't sell data
+
+          p.pt-6
+            i New version of the platform coming in Autumn 2017
+        .carousel-item.active
+          .dark-opacity-overlay
+          img.mx-auto.d-block.header-carousel-img(src="/images/header-img.jpg" alt="header img")      
+
+  <!-- Footer -->
+  footer#footer
+    h3.pt-5.text-center We are not tourits. We are travellers.
+
+    .container.text-center.pt-5
+      p.text-center Join, read, contact us :
+
+      .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap#footer-link.pt-3
+        .pl-5.pr-5.pb-4
+          a(href="https://www.facebook.com/welcomcity/" target="_blank")
+            img.mx-auto.d-block(src="images/facebook.png" alt="Facebook")
+        .pl-5.pr-5.pb-4
+          a(href="https://twitter.com/WelcomParis" target="_blank")
+            img.mx-auto.d-block(src="images/twitter.png" alt="Twitter")
+        .pl-5.pr-5.pb-4
+          a(href="https://medium.com/@WelcomParis" target="_blank")
+            img.mx-auto.d-block(src="images/medium.png" alt="Medium")
+        .pl-5.pr-5.pb-4
+          a(href="https://www.instagram.com/welcom_paris/" target="_blank")
+            img.mx-auto.d-block(src="images/insta.png" alt="Insta")
+        .pl-5.pr-5.pb-4
+          a(href="mailto:welcomtomycity@gmail.com")
+            img.mx-auto.d-block(src="images/mail.png" alt="Mail")
+
+    p.pt-3.text-center
+      a.learn-more(href="/learnmore") Learn more
+
+    .copyright.text-center.pt-5.pb-3
+      p &copy; Welcom' 2017

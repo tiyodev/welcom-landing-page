@@ -1,0 +1,106 @@
+extends layout
+
+block content
+    header
+        section#header-logo.pt-6.pb-6
+            .d-flex.justify-content-center
+                img.logo(src="/images/welcom-logo-hori-bleu.svg")
+
+        section#header-title.text-center.pt-6.pb-6
+            h3 Our goal is to shift Paris from the most touristic city of the world 
+            h3 to the most welcoming city of the world.
+
+    section#content
+        .container.pl-0.pr-0
+            .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap
+                .p-0
+                    img.icon(src="/images/icon-travellers-not-tourists.png")
+                .p-5.text-down-lg-center
+                    h3 People make places.
+                    p     We are two friends who love to travel, get off the beaten track, and most of all, meet people wherever we go.
+                        | These encounters make the salt of traveling, make us learn, share, they remain in our memory.
+                        | But nothing existed to create these encounters whith locals. so we created Welcom' in our city, Paris.
+                    
+                    p.font-weight-bold 
+                        | " To truly know a place, you have to know the people "
+                    
+                    i Ted Willis, travel Youtuber we had the chance to meet here.
+
+            .d-flex.flex-row-reverse.justify-content-center.align-items-center.flex-wrap
+                .p-0
+                    img.icon(src="/images/icon-sharing-spirit.png")
+                .p-5.text-down-lg-center
+                    h3 You don't need us to find the Eiffel tower, but...
+                    p     To go where the Parisians go, to feel the true local life, to understand the city, one should meet Parisians.
+                        | We, the welcomers, propose genuine Parisian experiences, over a few hours, for you to feel like locals.
+                    
+                    p.font-weight-bold     
+                        | " Nothing to do with tourist guides. The welcomers are like friends of friends
+                        | with whom we spent two hours, an experience, a moment of sharing. "
+                    
+                    i Helena and Carla, super cool travellers from Amsterdam
+                
+
+            .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap
+                .pr-0
+                    img.icon(src="/images/icon-meet-people.png")
+                .p-5.text-down-lg-center
+                    h3 We are just travellers helping each others.
+                    p     Initially, we were a small group of friends, but we were joined by many traveler enthousiasts Parisians.
+                        | We are now a small community, and there is no professional among us.
+                        | The welcomers are actually Parisian travelers who are at home between to trips.
+                    
+                    p.font-weight-bold     
+                        | " We are welcomers because meeting travellers is a way to travel in itself. And making them discover
+                        | our favorite places and our lives is a way of forwarding the kindness we receive when we travel. "
+                    
+                    i Lucie and Antoine, Parisians welcomers.
+                
+            .d-flex.flex-row-reverse.justify-content-center.align-items-center.flex-wrap
+                .pr-0
+                    img.icon(src="/images/icon-soucoupe-community.png")
+                .p-5.text-down-lg-center
+                    h3 " Constantly on the desk, put back your work and work it again. "
+                    p   The first version of the site, released in early July, did not satisfy us and our friends.
+                        | We removed it and redesigned it from top to bottom, thanks to the feedbacks of dozens of people.
+                        | We are working on the beta versio, and we will release it in October.
+
+                    p   If you want to be part of it, leave us your mail !
+                
+               
+            .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap.pt-3
+                .pl-5.pr-5.pb-4.text-center
+                    form.pt-5(method="post" action="http://yahoo.us12.list-manage.com/subscribe/post?u=ef551ada35ac08ad04a91b8d1&amp;id=2e7b65c068")
+                        input.text(type="text" name="MERGE0" placeholder="Drop us your email")
+                        input.button(type="submit" value="Get access")
+                        p We don't spam, we don't sell data
+                        h5.pt-4 Thanks and se you soon, in Paris or anywhere else ! 
+                        h3 JB and Yohann
+
+    <!-- Footer -->
+    footer#footer
+        .container.text-center.pt-5
+            p.text-center Join, read, contact us :
+
+            .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap#footer-link.pt-3
+                .pl-5.pr-5.pb-4
+                    a(href="https://www.facebook.com/welcomcity/" target="_blank")
+                        img.mx-auto.d-block(src="images/facebook.png" alt="Facebook")
+                .pl-5.pr-5.pb-4
+                    a(href="https://twitter.com/WelcomParis" target="_blank")
+                        img.mx-auto.d-block(src="images/twitter.png" alt="Twitter")
+                .pl-5.pr-5.pb-4
+                    a(href="https://medium.com/@WelcomParis" target="_blank")
+                        img.mx-auto.d-block(src="images/medium.png" alt="Medium")
+                .pl-5.pr-5.pb-4
+                    a(href="https://www.instagram.com/welcom_paris/" target="_blank")
+                        img.mx-auto.d-block(src="images/insta.png" alt="Insta")
+                .pl-5.pr-5.pb-4
+                    a(href="mailto:welcomtomycity@gmail.com")
+                        img.mx-auto.d-block(src="images/mail.png" alt="Mail")
+
+        p.pt-3.text-center
+            a.learn-more(href="/") Back to main page
+
+        .copyright.text-center.pt-5.pb-3
+            p &copy; Welcom' 2017
