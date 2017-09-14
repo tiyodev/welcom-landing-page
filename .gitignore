@@ -33,7 +33,7 @@ tmp
 uploads
 
 # API keys and secrets
-.env
+.env.dev
 .env.example
 
 # Dependency directory
