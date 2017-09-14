@@ -108,6 +108,38 @@ header #header-title {
   #footer .copyright p {
     font-size: 0.8rem; }
 
+@font-face {
+  font-family: "AAUX Problack";
+  src: url("/font/AAUX Problack.ttf"); }
+
+@font-face {
+  font-family: "AAUX Probold";
+  src: url("/font/AAUX Probold.ttf"); }
+
+@font-face {
+  font-family: "AAUX Prolight";
+  src: url("/font/AAUX Prolight.ttf"); }
+
+@font-face {
+  font-family: "AAUX Promedium";
+  src: url("/font/AAUX Promedium.ttf"); }
+
+@font-face {
+  font-family: "AAUX Proregular";
+  src: url("/font/AAUX Proregular.ttf"); }
+
+@font-face {
+  font-family: "GothamBold";
+  src: url("/font/GothamBold.otf"); }
+
+@font-face {
+  font-family: "GothamLight Italic";
+  src: url("/font/GothamLight Italic.otf"); }
+
+@font-face {
+  font-family: "GothamLight Regular";
+  src: url("/font/GothamLight Regular.otf"); }
+
 /*************** Override font family *************************************************/
 p, a {
   font-family: 'Aaux ProMedium', serif;
