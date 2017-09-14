@@ -14,9 +14,9 @@ exports.getIndex = (req, res) => {
  * Add members
  */
 exports.addMembers = (req, res) => {
-  const mailchimpInstance = 'us12';
-  const listUniqueId = '2e7b65c068';
-  const mailchimpApiKey = '42bbbe51d0dff400456392f282de2b97-us12';
+  const mailchimpInstance = process.env.MAILCHIMP_INSTANCE;
+  const listUniqueId = process.env.MAILCHIMP_LIST_ID;
+  const mailchimpApiKey = process.env.MAILCHIMP_API_KEY;
 
   request
     .post(`https://${mailchimpInstance}.api.mailchimp.com/3.0/lists/${listUniqueId}/members/`)
