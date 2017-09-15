@@ -52,7 +52,7 @@ app.use(expressValidator());
 app.use(session({
   resave: true,
   saveUninitialized: true,
-  secret: process.env.SESSION_SECRET,
+  secret: process.env.SESSION_SECRET
 }));
 app.use(flash());
 app.use((req, res, next) => {
