@@ -1,5 +1,9 @@
 @import 'color';
 
+body{
+    background-color: #0a1235;
+}
+
 #header-carousel{
     .logo{
         height: 100px;
@@ -8,7 +12,7 @@
     form{ 
         .text{
             height: 40px;
-            width: 250px;
+            //width: 250px;
             border-radius: 10px 0px 0px 10px;
             text-align: center;
             border: none;
@@ -41,20 +45,114 @@
         mix-blend-mode: multiply;
     }
 
-    .header-carousel-img{
-        width: 100vw;
-        height: 800px;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
+    @media (min-width: 1001px) {
+        .header-carousel-img{
+            width: 100vw;
+            height: 900px;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+    
+        .carousel-caption{
+            top: 5%;
 
-    .carousel-caption{
-        top: 10%;
+            left: calc((100vw - 800px) / 2);
+            right: calc((100vw - 800px) / 2);
+    
+            h1, h2{
+                font-family: 'Aaux ProBold';
+            }
+        }
 
-        h1, h2{
-            font-family: 'Aaux ProBold';
+        form{ 
+            .text{
+                width: 250px;
+            }
         }
     }
+
+    @media (max-width: 1000px) {
+        .header-carousel-img{
+            width: 100vw;
+            height: 900px;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+    
+        .carousel-caption{
+            top: 1%;
+
+            left: calc((100vw - 750px) / 2);
+            right: calc((100vw - 750px) / 2);
+        
+            h1, h2{
+                font-family: 'Aaux ProBold';
+            }
+        }
+
+        form{ 
+            .text{
+                width: 250px;
+            }
+        }
+    }
+    
+    @media (max-width: 800px) {
+        .header-carousel-img{
+            width: 100vw;
+            height: 1000px;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+    
+        .carousel-caption{
+            top: 1%;
+
+            left: calc((100vw - 450px) / 2);
+            right: calc((100vw - 450px) / 2);
+    
+            h1, h2{
+                font-family: 'Aaux ProBold';
+            }
+        }
+
+        form{ 
+            .text{
+                width: 250px;
+            }
+        }
+    }
+
+    @media (max-width: 450px) {
+        .header-carousel-img{
+            width: 100vw;
+            height: 1200px;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+    
+        .carousel-caption{
+            top: 1%;
+
+            left: calc((100vw - 350px) / 2);
+            right: calc((100vw - 350px) / 2);
+    
+            h1, h2{
+                font-family: 'Aaux ProBold';
+            }
+        }
+
+        form{ 
+            .text{
+                width: 200px;
+            }
+        }
+    }
+}
+
+#opening{
+    background-color: $wel-pink;
+    color: $wel-white;
 }
 
 #footer{

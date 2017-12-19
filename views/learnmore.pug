@@ -12,7 +12,7 @@ block content
 
     section#content
         .container.pl-0.pr-0
-            .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap
+            .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap.bgc-white
                 .p-0
                     img.icon(src="/images/icon-travellers-not-tourists.png")
                 .p-5.text-down-lg-center
@@ -26,13 +26,13 @@ block content
                     
                     i Ted Willis, travel Youtuber we had the chance to meet here.
 
-            .d-flex.flex-row-reverse.justify-content-center.align-items-center.flex-wrap
+            .d-flex.flex-row-reverse.justify-content-center.align-items-center.flex-wrap.bgc-grey-light
                 .p-0
                     img.icon(src="/images/icon-sharing-spirit.png")
                 .p-5.text-down-lg-center
                     h3 You don't need us to find the Eiffel tower, but...
-                    p     To go where the Parisians go, to feel the true local life, to understand the city, one should meet Parisians.
-                        | We, the welcomers, propose genuine Parisian experiences, over a few hours, for you to feel like locals.
+                    p     To go where the Parisians go, to feel the true local life, to understand the city, it's better to meet Parisians.
+                        | We, the welcomers, propose genuine Parisian experiences, over a couple hours, for you to feel like a Parisian.
                     
                     p.font-weight-bold     
                         | " Nothing to do with tourist guides. The welcomers are like friends of friends
@@ -41,7 +41,7 @@ block content
                     i Helena and Carla, super cool travellers from Amsterdam
                 
 
-            .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap
+            .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap.bgc-white
                 .pr-0
                     img.icon(src="/images/icon-meet-people.png")
                 .p-5.text-down-lg-center
@@ -56,25 +56,25 @@ block content
                     
                     i Lucie and Antoine, Parisians welcomers.
                 
-            .d-flex.flex-row-reverse.justify-content-center.align-items-center.flex-wrap
+            .d-flex.flex-row-reverse.justify-content-center.align-items-center.flex-wrap.bgc-grey-light
                 .pr-0
                     img.icon(src="/images/icon-soucoupe-community.png")
                 .p-5.text-down-lg-center
                     h3 " Constantly on the desk, put back your work and work it again. "
                     p   The first version of the site, released in early July, did not satisfy us and our friends.
                         | We removed it and redesigned it from top to bottom, thanks to the feedbacks of dozens of people.
-                        | We are working on the beta versio, and we will release it in October.
+                        | We are working on the beta version, and we will release on the early Spring 2018.
 
-                    p   If you want to be part of it, leave us your mail !
+                    p   If you want to be part of it or just want to support the project, leave us your mail !
                 
                
-            .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap.pt-3
+            .d-flex.flex-row.justify-content-center.align-items-center.flex-wrap.pt-3.bgc-white
                 .pl-5.pr-5.pb-4.text-center
                     form.pt-5(method="post" action="/addMember")
                         input(type='hidden', name='_csrf', value=_csrf)
                         input.text(type="text" value="" name="email" placeholder="Drop us your email")
-                        input.button(type="submit" value="Get access")
-                        p We don't spam, we don't sell data
+                        input.button(type="submit" value="Get news")
+                        p We promise : no spam, no email sales
                         h5.pt-4 Thanks and se you soon, in Paris or anywhere else ! 
                         h3 JB and Yohann
 

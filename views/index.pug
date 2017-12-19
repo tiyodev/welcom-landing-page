@@ -7,25 +7,36 @@ block content
       .carousel-inner(role="listbox")
         .carousel-caption
           img.logo(src="/images/logo-header.png")
-          h1.pt-5 Feel like a Parisian
+          h1.pt-5 Where travellers meet cool Parisians
 
-          h4.pt-5  We are a small local community of travellers. <br/>
-                 | We are dedicated to make you discover our city like locals, <br/>
-                 | like we like to when we travel. <br/>
+          h4.pt-5  We are creating a small community of travel enthusiasts in Paris, our city.  <br/>
+                 | With a simple idea: meet the travellers who come here, and share with them our city, our neighborhoods, our lives.
+                 | Make them experience the real Parisian life for a couple hours. <br/>
+                 | We love to feel welcome when we travel abroad, so we do the same in our hometown. <br/>
 
-          h4.pt-5 Meet parisians, share a moment, experience the real Paris.
-        
+          h4.pt-5 We think that there is a new worldwide generation of travellers, who wants to get out of mass tourism, 
+                  | and put people back to the heart of travel. <br/>
+                  | We like meeting people, sharing, learning, experiencing new things, with curiosity and kindness. Sharing is caring !
+
+          h4.pt-5 We are developing the new online platform of the community. If you want to join us or receive updates of the project, 
+                  | just leave us your email :
+
           form.pt-5(method="post" action="/addMember")
             input(type='hidden', name='_csrf', value=_csrf)
             input.text(type="text" value="" name="email" placeholder="Drop us your email")
-            input.button(type="submit" value="Get access")
-            p We don't spam, we don't sell data
+            input.button(type="submit" value="Get news")
+            p We promise : no spam, no email sales
 
-          p.pt-6
-            i New version of the platform coming in Autumn 2017
+          h4.pt-5 Meet parisians, share a moment, experience the real Paris.
+
         .carousel-item.active
           .dark-opacity-overlay
-          img.mx-auto.d-block.header-carousel-img(src="/images/header-img.jpg" alt="header img")      
+          img.mx-auto.d-block.header-carousel-img(src="/images/header-img2.png" alt="header img")   
+
+  <!-- Body -->
+  section#opening
+    h4.pt-4.pb-4.mb-0.mt-0.text-center
+      i Opening in Spring 2018 !   
 
   <!-- Footer -->
   footer#footer
