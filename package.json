@@ -12,7 +12,7 @@
     "test": "mocha --reporter spec"
   },
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^3.2.2",
     "body-parser": "^1.18.1",
     "chalk": "^2.1.0",
     "compression": "^1.7.0",
